@@ -1,0 +1,44 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.text-background {
+    -fx-background-color: yellow;
+}
+
+
+
+.button {
+     -fx-background-color: lightgrey;
+      -fx-font-size: 16px;
+       -fx-pref-width: 100px; 
+    -fx-pref-height: 50px;
+     
+         -fx-alignment: center;
+        
+}
+
+
+
+#reset {
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+ #dodaj {
+    -fx-pref-height: 120px; 
+    
+}
+
+
+
+ .bigsize {
+
+    -fx-pref-width: 200px; 
+}
+.button:hover{
+	 -fx-background-color: grey;
+}
+.button:pressed{
+	 -fx-background-color: darkgrey;
+}
